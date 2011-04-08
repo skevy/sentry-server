@@ -6,7 +6,7 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     
-    url(r'^', include('sentry.urls'))
+    url(r'^', include('sentry.urls')),
     
     url(r'^admin/', include(admin.site.urls)),
 )
