@@ -1,0 +1,2 @@
+-e git+git@github.com:skevy/django.git#egg=django
+-e git+https://github.com/dcramer/django-sentry#egg=sentry
